@@ -104,37 +104,7 @@ $(document).ready(function () {
   });
 
 
-  /* ========================================================================
-    Grab Last Tweet
-   ========================================================================== */
-  var config = {
-    "id": '', // input data-widget-id here
-    "domId": 'tweets',
-    "maxTweets": 1, // defines how many tweet to show
-    "enableLinks": false,
-    "showUser": false,
-    "showTime": false,
-    "dateFunction": '',
-    "showRetweet": false,
-    "customCallback": handleTweets,
-    "showInteraction": false
-  };
-  function handleTweets(tweets){
-      var x = tweets.length;
-      var n = 0;
-      var element = document.getElementById('tweets');
-      var html = '<p>';
-      while(n < x) {
-        html +=  tweets[n];
-        n++;
-      }
-      html += '</p>';
-      element.innerHTML = html;
-  }
-  twitterFetcher.fetch(config);
-
-
-  /* ========================================================================
+   /* ========================================================================
     Portfolio Filter
    ========================================================================== */
   var container = $('.portfolio-wrapper'); // portfoolio container

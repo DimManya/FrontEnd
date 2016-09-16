@@ -518,7 +518,7 @@ header .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background: url(../img/slider-overlay.png) repeat;
+  background: url(../assets/img/slider-overlay.png) repeat;
 }
 header .carousel,
 header .item,
@@ -588,7 +588,7 @@ header .logo-container {
   2.3 Component: About Us
  ========================================================================== */
 .about-us {
-  background: url("../img/about-us-bg.jpg") no-repeat center fixed;
+  background: url("../assets/img/about-us-bg.jpg") no-repeat center fixed;
   background-size: cover;
   position: relative;
 }
@@ -660,11 +660,11 @@ header .logo-container {
   transition: background .5s;
 }
 .case-study .case-study-left {
-  background: url("../img/case-study/bf-left.jpg") no-repeat;
+  background: url("../assets/img/case-study/bf-left.jpg") no-repeat;
   background-size: cover;
 }
 .case-study .case-study-right {
-  background: url("../img/case-study/bf-right.jpg") no-repeat;
+  background: url("../assets/img/case-study/bf-right.jpg") no-repeat;
   background-size: cover;
 }
 .case-study .overlay:hover {
@@ -743,7 +743,7 @@ header .logo-container {
   2.7 Component: Processes
  ========================================================================== */
 .processes {
-  background: url("../img/process-bg.jpg") no-repeat center fixed;
+  background: url("../assets/img/process-bg.jpg") no-repeat center fixed;
   background-size: cover;
   color: #fffeff;
 }
@@ -856,7 +856,7 @@ header .logo-container {
   2.9 Component: Testimonail
  ========================================================================== */
 .testimonial {
-  background: url(../img/testimonial-bg.png);
+  background: url(../assets/img/testimonial-bg.png);
 }
 .testimonial-carousel .item {
   padding: 25px 40px 40px;
@@ -1025,7 +1025,7 @@ header .logo-container {
   2.13 Component: Twitter
  ========================================================================== */
 .twitter {
-  background: url("../img/twitter-bg.jpg") no-repeat center top fixed;
+  background: url("../assets/img/twitter-bg.jpg") no-repeat center top fixed;
   background-size: cover;
   color: #fff;
 }
